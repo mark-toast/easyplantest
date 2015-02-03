@@ -1,0 +1,478 @@
+#lenders {
+    margin: 0 auto 3em;
+    padding: 0 35px;
+    text-align: center;
+    position: relative;
+    max-width: 900px;
+}
+
+#lenders h2 {
+    color: #5a5a5a;
+    font-size: 30px;
+    margin: 1.5em 0 0.75em;
+}
+
+#lenders > ul {
+    display: none;
+    height: 185px;
+    overflow: hidden;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+#lenders ul ul {
+    display: block;
+}
+
+.home #lenders ul ul {
+    display: none;
+}
+
+.home #lenders > ul {
+    display: block;
+}
+
+#lenders li {
+    display: inline-block;
+    line-height: 45px;
+    list-style-type: none;
+    margin: 0 5px 20px;
+}
+
+#lenders img {
+    vertical-align: middle;
+}
+
+#lenders .lender-disclaimer {
+    display: none;
+}
+
+#more-lenders-block {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: -101px;
+    width: 230px;
+}
+
+#more-lenders-block.internal {
+    bottom: -53px;
+}
+
+#lenders-arrow {
+    display: none;
+    float: left;
+    margin: 0 0 0 25px;
+}
+
+#more-text {
+    display: none;
+    color: #f8992f;
+    float: right;
+    font-family: 'trashhand';
+    font-size: 30px;
+    text-align: center;
+    width: 160px;
+    margin: -26px 0 34px;
+    transition: all 0.3s ease-out;
+}
+
+#lenders-lip {
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 0 -34px;
+    width: 130px;
+}
+
+#lenders-lip.active img {
+    margin: 0 0 0 -130px;
+}
+
+#more-lenders-block:hover #more-text {
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    margin: 0 0 1.5em;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.cta-buttons .wrapper div {
+    display: inline-block;
+    margin: 5px;
+    max-width: 155px;
+    width: 40%;
+}
+
+.cta-buttons .wrapper div img {
+    display: block;
+    width: 100%;
+}
+
+.cta-buttons .loans {
+    background-color: #4fbfe2;
+}
+
+.cta-buttons .investors {
+    background-color: #bdd73c;
+}
+
+.cta-buttons .refinancing {
+    background-color: #f8992f;
+}
+
+.cta-buttons .meet-with-us {
+    background-color: #00a0b4;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+}
+
+.cta-buttons a img {
+    transition: opacity 0.5s ease-out;
+}
+
+.cta-buttons a:hover img {
+    opacity: 0;
+}
+
+.cta-buttons p {
+    color: #fff;
+    display: none;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 1.5em;
+    padding: 0 10px;
+}
+
+.home .site-footer .cta-buttons {
+    display: none;
+}
+
+#clause {
+    background: #00a0b4;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+#clause .wrapper div > img {
+    display: none;
+}
+
+#clause p {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+#clause img {
+    display: inline-block;
+    max-width: 231px;
+    width: 49%;
+}
+
+#quick-links {
+    background: #ebebeb;
+    text-align: center;
+    padding: 50px 0 40px;
+}
+
+#quick-links span {
+    color: #5a5a5a;
+    display: block;
+    font-size: 2.125em;
+    font-weight: 500;
+    margin: 0 0 1em;
+}
+
+#quick-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#quick-links li {
+    margin: 1em 0;
+}
+
+#quick-links a {
+    color: #929292;
+    font-size: 1.344em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#quick-links .sub-menu {
+    display: none;
+}
+
+.copyright,
+#menu-footer-menu {
+    background: #fff;
+    color: #414141;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.750em;
+    font-weight: 300;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#menu-footer-menu,
+.copyright {
+    margin: 0;
+}
+
+#menu-footer-menu {
+    padding: 1.5em 0 1em;
+}
+
+.copyright {
+    padding: 0 0 1em;
+}
+
+#menu-footer-menu li {
+    border-left: 1px solid #6f6f6f;
+    display: inline-block;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0 7px 0 11px;
+}
+
+#menu-footer-menu li:first-child {
+    border: none;
+    padding: 0 7px 0 0;
+}
+
+#menu-footer-menu li:last-child {
+    padding: 0 0 0 11px;
+}
+
+.copyright a {
+    color: #414141;
+    text-decoration: none;
+}
+
+#menu-footer-menu a {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.copyright a:hover, #menu-footer-menu a:hover {
+    color: #3ebbe6;
+}
+
+@media screen and (min-width: 768px) {
+
+    .slide-cta {
+        width: 250px;
+    }
+
+    #lenders {
+        border-bottom: 8px solid #e3e4e9;
+        margin: 0 auto;
+        padding: 0 35px 20px;
+    }
+
+    #lenders .action-button {
+        display: none;
+    }
+
+    #more-lenders-block {
+        display: block;
+        bottom: -51px;
+        width: 160px;
+    }
+
+    #more-lenders-block.internal {
+        bottom: -51px;
+    }
+
+    #lenders-arrow,
+    #more-text {
+        display: none;
+    }
+
+    #lenders ul {
+        height: auto;
+    }
+
+    #lenders li {
+        margin: 0 15px 20px;
+    }
+
+    .cta-buttons p {
+        display: block;
+    }
+
+    #clause {
+        padding: 65px 30px 35px;
+    }
+
+    #clause .wrapper div > img {
+        display: block;
+        float: left;
+        margin: 10px 3% 10px 5%;
+        width: 229px;
+    }
+
+    #clause p {
+        float: right;
+        text-align: left;
+        width: 58%;
+    }
+
+    #clause img {
+        margin: 2em 3% 0;
+        width: 25%;
+    }
+
+    #quick-links li {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    #lenders {
+        border: 0;
+        padding: 0 0 45px;
+    }
+
+    #more-lenders-block {
+        bottom: -53px;
+        width: 230px;
+    }
+
+    #lenders li {
+        margin: 0 35px 20px;
+    }
+
+    #lenders .action-button {
+        display: none;
+    }
+
+    #lenders .lender-disclaimer {
+        display: block;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    #more-lenders-block,
+    #lenders-arrow,
+    #more-text {
+        display: block;
+    }
+
+    .cta-buttons {
+         background-color: #37b0da;
+         border-top: 10px solid #e3e4e9;
+         margin: 0;
+    }
+
+    .cta-buttons .loans {
+        background: url(../img/cta-loans-hover.png) no-repeat center 40px;
+    }
+
+    .cta-buttons .investors {
+        background: url(../img/cta-investors-hover.png) no-repeat center 40px;
+    }
+
+    .cta-buttons .refinancing {
+        background: url(../img/cta-refinancing-hover.png) no-repeat center 40px;
+    }
+
+    .cta-buttons .meet-with-us {
+        background: url(../img/cta-meetwithus-hover.png) no-repeat center 40px;
+    }
+
+    .home .site-footer .cta-buttons,
+    .home .cta-buttons.desktop {
+        display: block;
+    }
+
+    .cta-buttons .wrapper div {
+        background-color: none !important;
+        margin: 0 3%;
+        padding: 2.5em 0;
+    }
+
+    #quick-links span {
+        display: none;
+    }
+
+    #quick-links {
+        background: #e3e4e9 url(../img/bg-quicklinks.png) repeat-x top;
+        padding: 0;
+    }
+
+    #menu-quick-links {
+        position: relative;
+    }
+
+    #menu-quick-links > li {
+        float: left;
+        height: 185px;
+        margin: 0;
+        width: 20%;
+    }
+
+    #menu-quick-links .sub-menu {
+        display: none;
+    }
+
+    #menu-quick-links li:first-child .sub-menu {
+        display: block;
+    }
+
+    #menu-quick-links > li > a {
+        color: #fff;
+        display: block;
+        font-size: 0.938em;
+        font-weight: 700;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    #menu-quick-links > li > a:hover,
+    #menu-quick-links > .current-menu-parent.current-page-parent > a,
+    #menu-quick-links > .current-menu-item > a {
+        background: #e3e4e9 !important;
+        color: #414141 !important;
+    }
+
+    #quick-links .sub-menu {
+        height: 145px;
+        left: 0;
+        padding: 20px 0 0;
+        position: absolute;
+        width: 894px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    #quick-links .sub-menu li {
+        display: inline-block;
+        margin: 1em;
+        width: auto;
+    }
+
+    #quick-links .sub-menu a {
+        color: #5a5a5a;
+        font-size: 15px !important;
+    }
+
+    #quick-links .sub-menu a:hover {
+        color: #00a0b4;
+    }
+
+}

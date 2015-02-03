@@ -1,0 +1,40 @@
+.table-responsive {
+    overflow: scroll;
+}
+
+table {
+    margin: 2.5em 0;
+}
+
+table caption {
+    background: #3ebbe6;
+    border-bottom: 5px solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 35px;
+}
+
+tbody {
+    background: #e3e4e9;
+    border: 25px solid #e3e4e9;
+    color: #414141;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+td {
+    padding: 1.5em 1.5em;
+}
+
+tr:nth-child(2n+1) td {
+    background: #fff;
+}
+
+table a {
+    background: url(../img/sidebar-arrow.png) no-repeat right center;
+    color: #3ebbe6;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}

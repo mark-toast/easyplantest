@@ -1,0 +1,65 @@
+h1 {
+    color: #414141;
+    font-size: 2.438em;
+    font-weight: 500;
+    line-height: 52px;
+    margin: 0 0 1em;
+}
+
+form h1 {
+    background: #3ebbe6;
+    color: #fff;
+    font-size: 1.500em;
+    line-height: 32px;
+    margin: 0;
+    padding: 0.5em 35px;
+}
+
+h2 {
+    color: #414141;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 0 1.5em;
+}
+
+h3, .widget-title {
+    color: #414141;
+    font-size: 1.000em;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 1.5em 0;
+}
+
+.widget-title {
+    background: none;
+    font-style: italic;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+    color: #898989;
+    font-size: 0.813em;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+p, .page-content li {
+    color: #414141;
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.page-content ul {
+    padding: 0 0 0 15px;
+}

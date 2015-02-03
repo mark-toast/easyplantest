@@ -1,0 +1,22 @@
+/*
+
+Theme Name: Easy Plan Financial
+Theme URI: http://easyplan.com.au/
+Author: Joshua Kelly
+Author URI: http://joshuakelly.com.au/
+Description: null
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: easy-plan-financial
+Tags: null
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Easy Plan Financial is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+*/
+
+@import url('css/normalise.css');
+@import url('css/main.css');

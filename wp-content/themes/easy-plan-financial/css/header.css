@@ -1,0 +1,346 @@
+#page-wrapper, body, html {
+    position: relative;
+}
+
+body.open, html.open {
+    overflow-x: hidden !important;
+}
+
+#mobile-nav {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    background: #3ebbe6;
+    float: left;
+    margin-left: -260px;
+    overflow: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 260px;
+    z-index: 10000;
+}
+
+#mobile-nav .scroll-box {
+    background: #3ebbe6;
+    position: relative;
+}
+
+#mobile-nav form {
+    height: 70px;
+}
+
+#menu-mobile-menu,
+#menu-mobile-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu-mobile-menu .sub-menu {
+    display: none;
+}
+
+#menu-mobile-menu .current-menu-item .sub-menu {
+    display: block;
+}
+
+#menu-mobile-menu a {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 1.250em;
+    font-weight: 700;
+    padding: 15px 0 15px 25px;
+    text-decoration: none;
+}
+
+#menu-mobile-menu ul a {
+    background: #00a0b4;
+    border: 0;
+    font-size: 1.000em;
+    font-weight: 500;
+}
+
+#mobile-nav .search-form {
+    background: #fff;
+    border-bottom: 1px solid #3ebbe6;
+}
+
+#mobile-nav .search-form input[type="submit"] {
+    background: url(../img/bg-searchglass.png);
+    border: 0;
+    float: left;
+    height: 31px;
+    margin: 1.23em 0 1.23em 2.2em;
+    padding: 0;
+    text-indent: -9999em;
+    width: 28px;
+}
+
+#mobile-nav .search-form input[type="text"] {
+    border: 0;
+    color: #898989;
+    font-family: 'Ubuntu', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.313em;
+    float: right;
+    margin: 0.6em 0.8em 0 0;
+    padding: 0.5em 0.5em;
+    width: 180px;
+}
+
+#mobile-nav .search-form input[type="text"]:focus {
+    outline: none;
+}
+
+#mobile-nav .current-menu-item > a {
+    background: #fff;
+    color: #00a0b4;
+}
+
+.site-logo {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+}
+
+.site-logo img {
+    display: block;
+    width: 100%;
+}
+
+.nav-wrap {
+    background: #00a0b4;
+}
+
+.mob-bar {
+    margin: 0 auto;
+    max-width: 896px;
+    padding: 10px 12px 10px 25px;
+}
+
+.mob-nav-trigger {
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.mob-nav-trigger i {
+    float: left;
+    font-size: 40px;
+    margin: 4px 15px 0 0;
+}
+
+.mob-call {
+    background: #bdd73c;
+    color: #fff;
+    font-size: 1.250em;
+    font-weight: 500;
+    padding: 11px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 138px;
+}
+
+.site-header nav {
+    display: none;
+}
+
+header .wrapper > .pull-right {
+    display: none;
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+}
+
+#content-wrapper {
+    padding-top: 206px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #content-wrapper {
+        padding-top: 158px;
+    }
+
+    .nav-wrap {
+        background: none;
+    }
+
+    .mob-bar {
+        margin: -103px auto 40px;
+        padding: 10px 30px;
+    }
+
+    .mob-bar .mob-nav-trigger {
+        color: #898989;
+        line-height: 22px;
+        text-align: center;
+        float: left;
+    }
+
+    .mob-bar .mob-nav-trigger i {
+        display: block;
+        float: none;
+        margin: 0;
+    }
+
+    .mob-call {
+        background: #00a0b4;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .site-logo {
+        margin: 1.5em 0 2.5em 0;
+        width: 293px;
+    }
+
+    #content-wrapper {
+        padding-top: 231px;
+    }
+
+    header .wrapper > .pull-right {
+        display: block;
+    }
+
+    .menu-header-static-container {
+        float: left;
+    }
+
+    #menu-header-static {
+        list-style-type: none;
+        margin: 12px 1.5em 0 0;
+        padding: 0;
+    }
+
+    #menu-header-static li {
+        border-left: 2px solid #898989;
+        float: left;
+        font-size: 0.813em;
+        font-weight: 700;
+        margin: 0 0.5em;
+        padding: 0 0 0 1em
+    }
+
+    #menu-header-static li:first-child {
+        border-left: none;
+    }
+
+    #menu-header-static a {
+        color: #898989;
+        text-decoration: none;
+    }
+
+    #menu-header-static a:hover {
+        color: #3ebbe6;
+    }
+
+    .mob-bar {
+        display: none;
+    }
+
+    .nav-wrap nav,
+    .menu-primary-menu-container {
+        background: #e3e4e9;
+        display: block;
+        height: 50px;
+    }
+
+    .menu-primary-menu-container {
+        margin: 0 auto;
+        width: 894px;
+    }
+
+    .menu-primary-menu-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-primary-menu-container li {
+        display: inline-block;
+        height: 50px;
+    }
+
+    .menu-primary-menu-container a {
+        color: #898989;
+        cursor: pointer;
+        display: block;
+        font-weight: 700;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 1.4em;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .menu-primary-menu-container a:hover,
+    .menu-primary-menu-container .current-menu-item {
+        background: #fff !important;
+    }
+
+    .site-header .wrapper > .pull-right {
+        margin: 3em 0;
+    }
+
+    .spot-callus {
+        color: #00a0b4;
+        float: right;
+        font-size: 25px;
+        margin: 11px 0.6em 0;
+    }
+
+    .spot-phone {
+        color: #5a5a5a;
+        float: right;
+        font-size: 35px;
+        font-weight: 500;
+        margin: 0 0 0.1em;
+    }
+
+    .search-form {
+        color: #898989;
+        float: right;
+        font-size: 13px;
+    }
+
+    .search-form input[type='text'] {
+        background: #e3e4e9;
+        border: 0;
+        color: #898989;
+        font-size: 13px;
+        height: 40px;
+        padding: 0 14px;
+        width: 170px;
+    }
+
+    .search-form input[type='text']:focus {
+        outline: none;
+    }
+
+    .search-form input[type='submit'] {
+        background: #e3e4e9 url(../img/bg-searchglass.png) no-repeat center center;
+        background-size: 70% 70% !important;
+        border: 0;
+        float: right;
+        height: 40px;
+        padding: 0;
+        text-indent: -9999em;
+        width: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+}
